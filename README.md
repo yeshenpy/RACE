@@ -35,8 +35,9 @@ Note that for all SMAC experiments, we used SC2.4.10.
 Once you have configured your environment, you can access the RACE folder and run the code with the following command
 
 ```
-python3  src/main.py --config=facmac_smac --env-config=sc2 with env_args.map_name=MMM2  batch_size_run=1 state_alpha=0.01 frac=0.01  EA_alpha=1.0  Org_alpha=1.0  EA=1  EA_freq=1 SAME=0  use_cuda=False t_max=2005000
+python3  src/main.py --config=facmac_smac --env-config=sc2 with env_args.map_name=3s_vs_3z  batch_size_run=1 state_alpha=0.001 frac=0.005  EA_alpha=1.0  Org_alpha=1.0  EA=1  EA_freq=1 SAME=0  use_cuda=False t_max=2005000
 ```
+
 `state_alpha` corresponds to the hyperparameter beta to control VMM, `frac` corresponds to the hyperparameter alpha to control the mutation, and the other hyperparameters are consistent across tasks. **The code is run in serial mode and does not use multi-processing.**
 
 The config files `src/config/default.yaml` contain hyperparameters for the algorithms.
