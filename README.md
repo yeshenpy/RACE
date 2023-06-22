@@ -6,28 +6,28 @@ It includes implementations for RACE, FACMAC, FACMAC-nonmonotonic, MADDPG, COMIX
 
 Although the PYMARL framework can be used to run SMAC as well as MAMUJOCO, we do not run MAMUJOCO in this framework.
 
-## Setup instructions
+**If you are interested in Combing Evolutionary Algorithms and Reinforcement Learning, you can access this repository [Awesome-Evolutionary-Reinforcement-Learning](https://github.com/yeshenpy/Awesome-Evolutionary-Reinforcement-Learning) for more advanced ERL works.**
 
-Build the Dockerfile using
-```
-cd docker
-bash build.sh
-```
-Note that the docker file here assumes that you have a license key to install MuJoCo (otherwise you might encounter an error when building the docker image).
+
+## Setup instructions
 
 Set up StarCraft II and SMAC:
 ```
 bash install_sc2.sh
 ```
+
+Install the dependent packages
+```
+pip install -r requirements.txt
+```
+
+Our code uses WandB for visualization. Before you run it, please configure [WandB](https://wandb.ai/site).
+
 ## Environments
 
 ### StarCraft Multi-Agent Challenge (SMAC)
 We use the SMAC environment developed by [WhiRL](https://whirl.cs.ox.ac.uk/). Please check the [SMAC](https://github.com/oxwhirl/smac) repo for more details about the environment.
 Note that for all SMAC experiments, we used SC2.4.10.
-
-
-
-If you are interested in Combing Evolutionary Algorithms and Reinforcement Learning, you can access this repository [Awesome-Evolutionary-Reinforcement-Learning](https://github.com/yeshenpy/Awesome-Evolutionary-Reinforcement-Learning), which collects advanced ERL works.
 
 
 ## Run an experiment 
@@ -39,7 +39,7 @@ python3  src/main.py --config=facmac_smac --env-config=sc2 with env_args.map_nam
 ```
 `state_alpha` corresponds to the hyperparameter beta to control VMM, `frac` corresponds to the hyperparameter alpha to control the mutation, and the other hyperparameters are consistent across tasks. **The code is run in serial mode and does not use multi-processing.**
 
-The config files (src/config/default.yaml) contain hyperparameters for the algorithms.
+The config files `src/config/default.yaml` contain hyperparameters for the algorithms.
 These were sometimes changed when running the experiments on different tasks. Please see the Appendix of the paper for the exact hyper-parameters used.
 
 For each environment, you can specify the specific scenario by `with env_args.map_name=<map_name>` for SMAC.
