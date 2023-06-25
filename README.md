@@ -6,7 +6,7 @@ It includes implementations for RACE, FACMAC, FACMAC-nonmonotonic, MADDPG, COMIX
 
 Although the PYMARL framework can be used to run SMAC as well as MAMUJOCO, we do not run MAMUJOCO in this framework.
 
-**If you are interested in Combing Evolutionary Algorithms and Reinforcement Learning, you can access this repository [Awesome-Evolutionary-Reinforcement-Learning](https://github.com/yeshenpy/Awesome-Evolutionary-Reinforcement-Learning) for more advanced ERL works.**
+**If you are interested in Combing Evolutionary Algorithms and Reinforcement Learning, you can access this repository [Awesome-Evolutionary-Reinforcement-Learning](https://github.com/yeshenpy/Awesome-Evolutionary-Reinforcement-Learning) for advanced ERL works.**
 
 <p align="center">
   <br><img src='figure/overall.png' width="1000"/><br>
