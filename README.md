@@ -56,7 +56,7 @@ Bibtex:
 ```
 @inproceedings{LiRACE2023,
   title={RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution},
-  author={Pengyi, Li and Jianye, Hao and Hongyao, Tang and Yan, Zheng and Xian Fu},
+  author={Pengyi, Li and Jianye, Hao and Hongyao, Tang and Yan, Zheng and Xian, Fu},
   booktitle={International Conference on Machine Learning},
   year={2023}
 }
