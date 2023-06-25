@@ -8,7 +8,15 @@ Although the PYMARL framework can be used to run SMAC as well as MAMUJOCO, we do
 
 **If you are interested in Combing Evolutionary Algorithms and Reinforcement Learning, you can access this repository [Awesome-Evolutionary-Reinforcement-Learning](https://github.com/yeshenpy/Awesome-Evolutionary-Reinforcement-Learning) for more advanced ERL works.**
 
+<p align="center">
+  <br><img src='figure/overall.png' width="1000"/><br>
+  <br><img src='figure/facmac.png' width="1000"/><br>
+  <a href="https://openreview.net/forum?id=nHCfIQu2tV">[Paper]
+  <a href="https://openreview.net/forum?id=nHCfIQu2tV">[Poster]
+  <a href="https://openreview.net/forum?id=nHCfIQu2tV">[Video]
+</p>
 
+    
 ## Setup instructions
 
 Set up StarCraft II and SMAC:
