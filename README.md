@@ -11,12 +11,10 @@ Although the PYMARL framework can be used to run SMAC as well as MAMUJOCO, we do
 <p align="center">
   <br><img src='figure/overall.png' width="1000"/><br>
   <br><img src='figure/facmac.png' width="1000"/><br>
-  <a href="https://openreview.net/forum?id=nHCfIQu2tV">[Paper]
-  <a href="https://openreview.net/forum?id=nHCfIQu2tV">[Poster]
-  <a href="https://openreview.net/forum?id=nHCfIQu2tV">[Video]
+  <a href="https://proceedings.mlr.press/v202/li23i.html">[Paper]
 </p>
 
-    
+    https://proceedings.mlr.press/v202/li23i.html
 ## Setup instructions
 
 Set up StarCraft II and SMAC:
@@ -62,10 +60,14 @@ If you used this code in your research or found it helpful, please consider citi
 
 Bibtex:
 ```
-@inproceedings{LiRACE2023,
-  title={RACE: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution},
-  author={Pengyi, Li and Jianye, Hao and Hongyao, Tang and Yan, Zheng and Xian, Fu},
-  booktitle={International Conference on Machine Learning},
-  year={2023}
+@InProceedings{pmlr-v202-li23i,
+  title = 	 {{RACE}: Improve Multi-Agent Reinforcement Learning with Representation Asymmetry and Collaborative Evolution},
+  author =       {Li, Pengyi and Hao, Jianye and Tang, Hongyao and Zheng, Yan and Fu, Xian},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  pages = 	 {19490--19503},
+  year = 	 {2023},
+  volume = 	 {202},
+  publisher =    {PMLR}
 }
+
 ```
