@@ -14,7 +14,6 @@ Although the PYMARL framework can be used to run SMAC as well as MAMUJOCO, we do
   <a href="https://proceedings.mlr.press/v202/li23i.html">[Paper]
 </p>
 
-    https://proceedings.mlr.press/v202/li23i.html
 ## Setup instructions
 
 Set up StarCraft II and SMAC:
